@@ -1,4 +1,4 @@
-import '../@polymer/polymer/polymer.js';
+import '../@polymer/polymer/polymer-legacy.js';
 import '../@polymer/paper-item/paper-item.js';
 import '../@polymer/paper-ripple/paper-ripple.js';
 import '../@polymer/paper-material/paper-material.js';

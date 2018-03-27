@@ -1,4 +1,4 @@
-import '../@polymer/polymer/polymer.js';
+import '../@polymer/polymer/polymer-legacy.js';
 import '../@polymer/iron-flex-layout/iron-flex-layout.js';
 import '../@polymer/paper-input/paper-input.js';
 import '../@polymer/paper-icon-button/paper-icon-button.js';
