@@ -5,7 +5,7 @@ import '../@polymer/paper-material/paper-material.js';
 import { Polymer } from '../@polymer/polymer/lib/legacy/polymer-fn.js';
 import { Templatizer } from '../@polymer/polymer/lib/legacy/templatizer-behavior.js';
 import { dom, flush } from '../@polymer/polymer/lib/legacy/polymer.dom.js';
-import { Element } from '../@polymer/polymer/polymer-element.js';
+import { PolymerElement } from '../@polymer/polymer/polymer-element.js';
 
 var DIRECTION = {
   UP: 'up',
@@ -447,7 +447,7 @@ Polymer({
    */
   _renderSuggestions: function (suggestions) {
     var suggestionsContainer = dom(this.$.suggestionsWrapper);
-    var isPolymer1 = !Element;
+    var isPolymer1 = !PolymerElement;
 
     this._clearSuggestions();
 
